@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment (do not commit API keys)
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
